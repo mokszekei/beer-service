@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2ed0250-295f-4fc1-942e-5cf91b51f87a" name="Default Changelist" comment="Adding data model. Colses #2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mosiqi/springframework/beerservice/web/controller/BeerController.java" afterDir="false" />
+    <list default="true" id="b2ed0250-295f-4fc1-942e-5cf91b51f87a" name="Default Changelist" comment="Adding beer controller. Colses #3">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mosiqi/springframework/beerservice/web/controller/BeerControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_5_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beer-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/beer-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mosiqi/springframework/beerservice/BeerServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mosiqi/springframework/beerservice/BeerServiceApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +24,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -29,10 +37,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
@@ -43,14 +58,83 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="mosiqi.springframework.beerservice.web.controller" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BeerControllerTest.updateBeerById">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeerControllerTest.getBeerById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="beer-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mosiqi.springframework.beerservice.web.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mosiqi.springframework.beerservice.web.controller" />
+      <option name="MAIN_CLASS_NAME" value="mosiqi.springframework.beerservice.web.controller.BeerControllerTest" />
+      <option name="METHOD_NAME" value="getBeerById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeerControllerTest.saveNewBeer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="beer-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mosiqi.springframework.beerservice.web.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mosiqi.springframework.beerservice.web.controller" />
+      <option name="MAIN_CLASS_NAME" value="mosiqi.springframework.beerservice.web.controller.BeerControllerTest" />
+      <option name="METHOD_NAME" value="saveNewBeer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeerControllerTest.updateBeerById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="beer-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mosiqi.springframework.beerservice.web.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mosiqi.springframework.beerservice.web.controller" />
+      <option name="MAIN_CLASS_NAME" value="mosiqi.springframework.beerservice.web.controller.BeerControllerTest" />
+      <option name="METHOD_NAME" value="updateBeerById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeerServiceApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="beer-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mosiqi.springframework.beerservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mosiqi.springframework.beerservice" />
+      <option name="MAIN_CLASS_NAME" value="mosiqi.springframework.beerservice.BeerServiceApplicationTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -63,6 +147,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BeerControllerTest.updateBeerById" />
+        <item itemvalue="JUnit.BeerControllerTest.saveNewBeer" />
+        <item itemvalue="JUnit.BeerControllerTest.getBeerById" />
+        <item itemvalue="JUnit.BeerServiceApplicationTests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -72,7 +164,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608318711498</updated>
-      <workItem from="1608318712720" duration="2446000" />
+      <workItem from="1608318712720" duration="4156000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. Closes #1">
       <created>1608320471482</created>
@@ -102,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608322071365</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adding beer controller. Colses #3">
+      <created>1608322315111</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608322315111</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +221,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit. Closes #1" />
     <MESSAGE value="Adding data model. Colses #2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding data model. Colses #2" />
+    <MESSAGE value="Adding beer controller. Colses #3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding beer controller. Colses #3" />
   </component>
 </project>
