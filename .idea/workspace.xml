@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2ed0250-295f-4fc1-942e-5cf91b51f87a" name="Default Changelist" comment="Adding beer controller test. Change test to junit-vintage-engine to solve version conflict. Colses #4">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mosiqi/springframework/beerservice/domain/Beer.java" afterDir="false" />
+    <list default="true" id="b2ed0250-295f-4fc1-942e-5cf91b51f87a" name="Default Changelist" comment="Adding data JPA for beer entity. Closes #5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/mosiqi/springframework/beerservice/repositories/BeerRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +19,7 @@
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -158,7 +159,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608318711498</updated>
-      <workItem from="1608318712720" duration="5649000" />
+      <workItem from="1608318712720" duration="6336000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. Closes #1">
       <created>1608320471482</created>
@@ -202,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608324295592</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adding data JPA for beer entity. Closes #5">
+      <created>1608363100959</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608363100959</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +232,7 @@
     <MESSAGE value="Adding data model. Colses #2" />
     <MESSAGE value="Adding beer controller. Colses #3" />
     <MESSAGE value="Adding beer controller test. Change test to junit-vintage-engine to solve version conflict. Colses #4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding beer controller test. Change test to junit-vintage-engine to solve version conflict. Colses #4" />
+    <MESSAGE value="Adding data JPA for beer entity. Closes #5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding data JPA for beer entity. Closes #5" />
   </component>
 </project>
