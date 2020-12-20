@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2ed0250-295f-4fc1-942e-5cf91b51f87a" name="Default Changelist" comment="Adding beer repository. Closes #6">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mosiqi/springframework/beerservice/bootstrap/BeerLoader.java" afterDir="false" />
+    <list default="true" id="b2ed0250-295f-4fc1-942e-5cf91b51f87a" name="Default Changelist" comment="Adding bootstrap. Closes #7.">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mosiqi/springframework/beerservice/web/model/BeerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mosiqi/springframework/beerservice/web/model/BeerDto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +160,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608318711498</updated>
-      <workItem from="1608318712720" duration="7316000" />
+      <workItem from="1608318712720" duration="7459000" />
+      <workItem from="1608407690632" duration="973000" />
+      <workItem from="1608445863358" duration="141000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. Closes #1">
       <created>1608320471482</created>
@@ -217,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608363644896</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Adding bootstrap. Closes #7.">
+      <created>1608364894450</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608364894450</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +243,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit. Closes #1" />
@@ -241,6 +252,7 @@
     <MESSAGE value="Adding beer controller test. Change test to junit-vintage-engine to solve version conflict. Colses #4" />
     <MESSAGE value="Adding data JPA for beer entity. Closes #5" />
     <MESSAGE value="Adding beer repository. Closes #6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding beer repository. Closes #6" />
+    <MESSAGE value="Adding bootstrap. Closes #7." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding bootstrap. Closes #7." />
   </component>
 </project>
