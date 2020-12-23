@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2ed0250-295f-4fc1-942e-5cf91b51f87a" name="Default Changelist" comment="Fix tests. closes #11">
-      <change afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+    <list default="true" id="b2ed0250-295f-4fc1-942e-5cf91b51f87a" name="Default Changelist" comment="Add circleci config. closes #12">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +183,7 @@
       <workItem from="1608445863358" duration="869000" />
       <workItem from="1608671173352" duration="3999000" />
       <workItem from="1608683743046" duration="653000" />
-      <workItem from="1608684402423" duration="1598000" />
+      <workItem from="1608684402423" duration="3409000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. Closes #1">
       <created>1608320471482</created>
@@ -276,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608685466245</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add circleci config. closes #12">
+      <created>1608686449872</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608686449872</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,6 +313,7 @@
     <MESSAGE value="Adding error handler. Closes #9" />
     <MESSAGE value="Adding Mapstruct. closes #10" />
     <MESSAGE value="Fix tests. closes #11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix tests. closes #11" />
+    <MESSAGE value="Add circleci config. closes #12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add circleci config. closes #12" />
   </component>
 </project>
