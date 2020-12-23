@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2ed0250-295f-4fc1-942e-5cf91b51f87a" name="Default Changelist" comment="Adding Mapstruct. closes #10">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_vintage_junit_vintage_engine_5_6_2.xml" beforeDir="false" />
+    <list default="true" id="b2ed0250-295f-4fc1-942e-5cf91b51f87a" name="Default Changelist" comment="Fix tests. closes #11">
+      <change afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beer-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/beer-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mosiqi/springframework/beerservice/web/controller/BeerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mosiqi/springframework/beerservice/web/controller/BeerControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/mosiqi/springframework/beerservice/web/mappers/BeerMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/mosiqi/springframework/beerservice/web/mappers/BeerMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +183,7 @@
       <workItem from="1608445863358" duration="869000" />
       <workItem from="1608671173352" duration="3999000" />
       <workItem from="1608683743046" duration="653000" />
-      <workItem from="1608684402423" duration="1004000" />
+      <workItem from="1608684402423" duration="1598000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit. Closes #1">
       <created>1608320471482</created>
@@ -272,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608684998115</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Fix tests. closes #11">
+      <created>1608685466245</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608685466245</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +305,7 @@
     <MESSAGE value="Adding bean validation. Closes #8" />
     <MESSAGE value="Adding error handler. Closes #9" />
     <MESSAGE value="Adding Mapstruct. closes #10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Mapstruct. closes #10" />
+    <MESSAGE value="Fix tests. closes #11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix tests. closes #11" />
   </component>
 </project>
